@@ -14,7 +14,7 @@ WA.onInit().then(() => {
         WA.room.showLayer('exitEastConfig')
     }
 
-    fetch('https://hooks.slack.com/services/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', {
+    fetch('https://hooks.slack.com/services/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', {
         method: 'POST',
         body: JSON.stringify({
             text: `🚪 ${WA.player.name} さんが入室しました`
